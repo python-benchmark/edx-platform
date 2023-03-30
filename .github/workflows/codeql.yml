@@ -12,7 +12,7 @@
 name: "CodeQL"
 
 on:
-  worflow_dispatch:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
