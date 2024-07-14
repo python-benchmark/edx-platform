@@ -38,7 +38,7 @@ matplotlib<3.4.0
 
 # constrained in opaque_keys. migration guide here: https://pymongo.readthedocs.io/en/4.0/migrate-to-pymongo4.html
 # Major upgrade will be done in separate ticket.
-pymongo<4.0.0
+pymongo<4.6.3
 
 # python3-saml==1.10.0 version started breaking a11y tests
 python3-saml<1.10.0
@@ -88,3 +88,11 @@ pytz==2022.2.1
 # docutils==0.19 has removed the docutils.core.ErrorString which is required by the sphinxcontrib-openapi
 # This constraint can be removed once sphinxcontrib-openapi is updated to resolve this issue.
 docutils<0.19
+django>=4.2.14 # not directly required, pinned by Snyk to avoid a vulnerability
+djangorestframework>=3.15.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
