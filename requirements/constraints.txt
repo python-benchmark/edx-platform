@@ -80,7 +80,7 @@ pycodestyle<2.9.0
 # which causes the requirements upgrade job to fail due to constraint conflict
 # This constraint can be removed once https://github.com/snowflakedb/snowflake-connector-python/issues/1259 is resolved
 # and snowflake-connector-python>2.8.0 is released.
-pyopenssl==22.0.0
+pyopenssl==24.0.0
 
 # pytz>2022.2.1 causes test failures in edx-platform
 pytz==2022.2.1
