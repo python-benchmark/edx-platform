@@ -30,3 +30,4 @@ setuptools<60
 
 # django-simple-history>3.0.0 adds indexing and causes a lot of migrations to be affected
 django-simple-history==3.0.0
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
